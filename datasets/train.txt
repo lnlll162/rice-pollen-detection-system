@@ -1,0 +1,17 @@
+datasets/flower/images/train/1.jpg
+datasets/flower/images/train/2.jpg
+datasets/flower/images/train/3.jpg
+datasets/flower/images/train/5.jpg
+datasets/flower/images/train/6.jpg
+datasets/flower/images/train/7.jpg
+datasets/flower/images/train/9.jpg
+datasets/flower/images/train/10.jpg
+datasets/flower/images/train/11.jpg
+datasets/flower/images/train/12.jpg
+datasets/flower/images/train/13.jpg
+datasets/flower/images/train/14.jpg
+datasets/flower/images/train/15.jpg
+datasets/flower/images/train/16.jpg
+datasets/flower/images/train/17.jpg
+datasets/flower/images/train/21.jpg
+datasets/flower/images/train/23.jpg

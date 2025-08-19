@@ -1,0 +1,233 @@
+[
+  {
+    "timestamp": "2025-04-08 20:43:40",
+    "filename": "6_flipped.jpg",
+    "data": {
+      "WT": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 29,
+        "viable": 17,
+        "non_viable": 12
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 21:01:57",
+    "filename": "3_flipped.jpg",
+    "data": {
+      "WT": {
+        "total": 286,
+        "viable": 286,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 14,
+        "viable": 14,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 21:05:15",
+    "filename": "3.jpg",
+    "data": {
+      "WT": {
+        "total": 284,
+        "viable": 284,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 16,
+        "viable": 16,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 21:06:51",
+    "filename": "3_flipped.jpg",
+    "data": {
+      "WT": {
+        "total": 286,
+        "viable": 286,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 14,
+        "viable": 14,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 21:16:49",
+    "filename": "3_cropped.jpg",
+    "data": {
+      "WT": {
+        "total": 236,
+        "viable": 236,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 17,
+        "viable": 17,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 21:28:35",
+    "filename": "1.jpg",
+    "data": {
+      "WT": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 300,
+        "viable": 300,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 21:31:01",
+    "filename": "14.jpg",
+    "data": {
+      "WT": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 66,
+        "viable": 66,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 22:28:45",
+    "filename": "1.jpg",
+    "data": {
+      "WT": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 300,
+        "viable": 300,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 22:36:04",
+    "filename": "3_flipped.jpg",
+    "data": {
+      "WT": {
+        "total": 118,
+        "viable": 118,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 182,
+        "viable": 182,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 22:40:07",
+    "filename": "1_cropped.jpg",
+    "data": {
+      "WT": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 300,
+        "viable": 300,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-04-08 23:18:20",
+    "filename": "3_flipped.jpg",
+    "data": {
+      "WT": {
+        "total": 118,
+        "viable": 118,
+        "non_viable": 0
+      },
+      "T1-C5-C1": {
+        "total": 0,
+        "viable": 0,
+        "non_viable": 0
+      },
+      "T1-C5-E5": {
+        "total": 182,
+        "viable": 182,
+        "non_viable": 0
+      }
+    }
+  }
+]

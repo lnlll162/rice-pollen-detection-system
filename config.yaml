@@ -1,0 +1,120 @@
+# 水稻花粉活力智能检测系统配置文件
+
+# 系统基本信息
+system:
+  name: "水稻花粉活力智能检测系统"
+  version: "1.0.0"
+  description: "基于YOLOv8和Streamlit的AI农业应用"
+
+# 模型配置
+model:
+  path: "runs/train7/weights/best.pt"
+  confidence_threshold: 0.5
+  device: "auto"  # auto, cpu, cuda
+  input_size: [640, 640]
+
+# 检测类别
+classes:
+  - name: "WT"
+    description: "野生型水稻花粉"
+    color: [255, 0, 0]
+  - name: "T1-C5-C1"
+    description: "转基因水稻花粉类型1"
+    color: [0, 0, 255]
+  - name: "T1-C5-E5"
+    description: "转基因水稻花粉类型2"
+    color: [255, 0, 255]
+
+# 图像处理配置
+image:
+  max_file_size: 5242880  # 5MB in bytes
+  max_resolution: [4000, 3000]
+  supported_formats: ["jpg", "jpeg", "png"]
+  preprocessing:
+    resize: true
+    max_size: 1024
+    normalization: false
+
+# 数据库配置
+database:
+  type: "sqlite"
+  users_db: "users.db"
+  cases_db: "cases.db"
+  backup_enabled: true
+  backup_interval: 86400  # 24 hours in seconds
+
+# 用户管理配置
+user_management:
+  default_admin:
+    username: "admin"
+    password: "admin123"
+    email: "admin@example.com"
+  password_min_length: 6
+  session_timeout: 3600  # 1 hour in seconds
+  max_login_attempts: 5
+
+# 分析配置
+analysis:
+  batch_processing: true
+  max_batch_size: 10
+  save_results: true
+  export_formats: ["json", "csv"]
+  visualization:
+    charts_enabled: true
+    save_charts: true
+    chart_format: "png"
+
+# 知识库配置
+knowledge_base:
+  categories:
+    - "基础知识"
+    - "研究方法"
+    - "最新进展"
+    - "案例分析"
+  professional_categories:
+    - "专业知识"
+    - "实验技术"
+    - "文献资料"
+    - "数据分析"
+
+# 案例分享配置
+case_sharing:
+  max_images_per_case: 5
+  max_case_length: 10000
+  moderation_enabled: true
+  tags:
+    - "育种"
+    - "栽培"
+    - "生理"
+    - "基因"
+    - "环境胁迫"
+    - "其他"
+
+# 系统日志配置
+logging:
+  level: "INFO"
+  file_enabled: true
+  log_file: "system.log"
+  max_file_size: 10485760  # 10MB
+  backup_count: 5
+
+# 性能配置
+performance:
+  cache_enabled: true
+  cache_ttl: 3600
+  max_concurrent_users: 100
+  request_timeout: 30
+
+# 安全配置
+security:
+  csrf_protection: true
+  rate_limiting: true
+  max_requests_per_minute: 60
+  allowed_origins: ["*"]
+
+# 部署配置
+deployment:
+  host: "0.0.0.0"
+  port: 8501
+  debug: false
+  reload: false
